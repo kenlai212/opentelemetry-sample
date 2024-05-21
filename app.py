@@ -15,7 +15,7 @@ from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader, Cons
 # and although it's not necessary for console export,
 # it's good to set service name anyways.
 resource = Resource(attributes={
-    SERVICE_NAME: "your-service-name"
+    SERVICE_NAME: "Opentelemetry Sample"
 })
 
 traceProvider = TracerProvider(resource=resource)
